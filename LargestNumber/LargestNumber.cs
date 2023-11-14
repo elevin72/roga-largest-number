@@ -6,11 +6,6 @@ namespace LargestNumber
     {
         static public long GetLargestNumber(List<long> list)
         {
-            /* long largest = xmlDocument.Descendants("Number")
-                .Select(element => long.Parse(element.Value))
-                .ToList()
-                .Max(); */
-
             return list.Max();
         }
 
